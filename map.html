@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fa89380284fb2a1a03277d46dcab387 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3fa89380284fb2a1a03277d46dcab387" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fa89380284fb2a1a03277d46dcab387 = L.map(
+                "map_3fa89380284fb2a1a03277d46dcab387",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 1,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_000c27485fa6b6b4073ce1b90e4b69fb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_000c27485fa6b6b4073ce1b90e4b69fb.addTo(map_3fa89380284fb2a1a03277d46dcab387);
+        
+    
+            var marker_ac5d9ee64280575346ea25102966bf32 = L.marker(
+                [45.5192, 9.08625],
+                {
+}
+            ).addTo(map_3fa89380284fb2a1a03277d46dcab387);
+        
+    
+        var popup_cc9dbb34f789a905fd800ba938e61d40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d136c2a46650bd882c72859943dae6b2 = $(`<div id="html_d136c2a46650bd882c72859943dae6b2" style="width: 100.0%; height: 100.0%;">5	151.7.56.68	Italy Lombardy Rho WIND Telecomunicazioni S.p.A.</div>`)[0];
+                popup_cc9dbb34f789a905fd800ba938e61d40.setContent(html_d136c2a46650bd882c72859943dae6b2);
+            
+        
+
+        marker_ac5d9ee64280575346ea25102966bf32.bindPopup(popup_cc9dbb34f789a905fd800ba938e61d40)
+        ;
+
+        
+    
+    
+            var marker_11cb06b690d92ea12e0c1278f90eac8c = L.marker(
+                [45.5192, 9.08625],
+                {
+}
+            ).addTo(map_3fa89380284fb2a1a03277d46dcab387);
+        
+    
+        var popup_3a8cf331b3979de936cee372d09ca629 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbc963b348de5a756349856ab6252ef7 = $(`<div id="html_dbc963b348de5a756349856ab6252ef7" style="width: 100.0%; height: 100.0%;">6	151.7.56.64	Italy Lombardy Rho WIND Telecomunicazioni S.p.A.</div>`)[0];
+                popup_3a8cf331b3979de936cee372d09ca629.setContent(html_dbc963b348de5a756349856ab6252ef7);
+            
+        
+
+        marker_11cb06b690d92ea12e0c1278f90eac8c.bindPopup(popup_3a8cf331b3979de936cee372d09ca629)
+        ;
+
+        
+    
+    
+            var marker_cb3b443f48fad04fe09011b50ae454ff = L.marker(
+                [45.5192, 9.08625],
+                {
+}
+            ).addTo(map_3fa89380284fb2a1a03277d46dcab387);
+        
+    
+        var popup_2b3b886477bde3a80dde8f4cbf78357e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a1d7d98c95acae6e27f20bc024d37f6 = $(`<div id="html_1a1d7d98c95acae6e27f20bc024d37f6" style="width: 100.0%; height: 100.0%;">7	151.6.5.145	Italy Lombardy Rho </div>`)[0];
+                popup_2b3b886477bde3a80dde8f4cbf78357e.setContent(html_1a1d7d98c95acae6e27f20bc024d37f6);
+            
+        
+
+        marker_cb3b443f48fad04fe09011b50ae454ff.bindPopup(popup_2b3b886477bde3a80dde8f4cbf78357e)
+        ;
+
+        
+    
+    
+            var marker_8704ab994835d6e90555b7b156ffc3de = L.marker(
+                [45.5192, 9.08625],
+                {
+}
+            ).addTo(map_3fa89380284fb2a1a03277d46dcab387);
+        
+    
+        var popup_990aaeee31f55a10634885ad7c14c278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_154b080f41e9629a14318683fd3da0f2 = $(`<div id="html_154b080f41e9629a14318683fd3da0f2" style="width: 100.0%; height: 100.0%;">8	151.7.112.177	Italy Lombardy Rho WIND Telecomunicazioni S.p.A.</div>`)[0];
+                popup_990aaeee31f55a10634885ad7c14c278.setContent(html_154b080f41e9629a14318683fd3da0f2);
+            
+        
+
+        marker_8704ab994835d6e90555b7b156ffc3de.bindPopup(popup_990aaeee31f55a10634885ad7c14c278)
+        ;
+
+        
+    
+    
+            var poly_line_6bddd256f73e90486f325147c080ea82 = L.polyline(
+                [[45.5192, 9.08625], [45.5192, 9.08625], [45.5192, 9.08625], [45.5192, 9.08625]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fa89380284fb2a1a03277d46dcab387);
+        
+    
+            map_3fa89380284fb2a1a03277d46dcab387.fitBounds(
+                [[45.5192, 9.08625], [45.5192, 9.08625], [45.5192, 9.08625], [45.5192, 9.08625]],
+                {}
+            );
+        
+</script>
+</html>
