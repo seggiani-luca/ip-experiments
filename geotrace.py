@@ -106,13 +106,20 @@ with troute.stdout:
 
         nodes.append(node)
 
+    node = {
+        "idx": int(idx) + 1,
+        "ip": ip1
+    }
+
     # now get last ip
-    location = getLocation(ip)
+    location = getLocation(ip1)
     if location:
         node = node | location
         node["location"] = True
     else:
         node["location"] = False
+
+    nodes.append(node)
 
 # view data
 printNodes(nodes)
